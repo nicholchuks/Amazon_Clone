@@ -164,15 +164,17 @@ const Header = () => {
         {/* ============ Search End here ================= */}
         {/* ============ Signin Start here =============== */}
 
-        <div className="flex flex-col items-start justify-center headerHover">
-          <p className="text-xs text-lightText font-light">Hello, sign in</p>
-          <p className="text-sm font-semibold -mt-1 text-whiteText">
-            Accounts & Lists{" "}
-            <span>
-              <ArrowDropDownOutlinedIcon />
-            </span>
-          </p>
-        </div>
+        <Link to="/signin">
+          <div className="flex flex-col items-start justify-center headerHover">
+            <p className="text-xs text-lightText font-light">Hello, sign in</p>
+            <p className="text-sm font-semibold -mt-1 text-whiteText">
+              Accounts & Lists{" "}
+              <span>
+                <ArrowDropDownOutlinedIcon />
+              </span>
+            </p>
+          </div>
+        </Link>
         {/* ============ Signin End here ================= */}
         {/* ============ Orders Start here =============== */}
         <div className="flex flex-col items-start justify-center headerHover">
